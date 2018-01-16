@@ -1,0 +1,7 @@
+C:\Users\acer\Desktop\labki pp2\Lab №1\student\student\bin\Debug\student.exe.config
+C:\Users\acer\Desktop\labki pp2\Lab №1\student\student\bin\Debug\student.exe
+C:\Users\acer\Desktop\labki pp2\Lab №1\student\student\bin\Debug\student.pdb
+C:\Users\acer\Desktop\labki pp2\Lab №1\student\student\obj\Debug\student.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\labki pp2\Lab №1\student\student\obj\Debug\student.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\labki pp2\Lab №1\student\student\obj\Debug\student.exe
+C:\Users\acer\Desktop\labki pp2\Lab №1\student\student\obj\Debug\student.pdb
