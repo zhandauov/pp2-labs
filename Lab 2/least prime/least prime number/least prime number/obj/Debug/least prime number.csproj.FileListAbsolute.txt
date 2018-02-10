@@ -1,0 +1,7 @@
+C:\Users\acer\AppData\Local\Temporary Projects\least prime number\obj\Debug\least prime number.csprojResolveAssemblyReference.cache
+C:\Users\acer\AppData\Local\Temporary Projects\least prime number\obj\Debug\least prime number.csproj.CoreCompileInputs.cache
+C:\Users\acer\AppData\Local\Temporary Projects\least prime number\bin\Debug\least prime number.exe.config
+C:\Users\acer\AppData\Local\Temporary Projects\least prime number\bin\Debug\least prime number.exe
+C:\Users\acer\AppData\Local\Temporary Projects\least prime number\bin\Debug\least prime number.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\least prime number\obj\Debug\least prime number.exe
+C:\Users\acer\AppData\Local\Temporary Projects\least prime number\obj\Debug\least prime number.pdb

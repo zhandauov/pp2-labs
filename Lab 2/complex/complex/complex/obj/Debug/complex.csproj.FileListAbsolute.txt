@@ -1,0 +1,14 @@
+C:\Users\acer\AppData\Local\Temporary Projects\complex\bin\Debug\complex.exe.config
+C:\Users\acer\AppData\Local\Temporary Projects\complex\bin\Debug\complex.exe
+C:\Users\acer\AppData\Local\Temporary Projects\complex\bin\Debug\complex.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\complex\obj\Debug\complex.csprojResolveAssemblyReference.cache
+C:\Users\acer\AppData\Local\Temporary Projects\complex\obj\Debug\complex.csproj.CoreCompileInputs.cache
+C:\Users\acer\AppData\Local\Temporary Projects\complex\obj\Debug\complex.exe
+C:\Users\acer\AppData\Local\Temporary Projects\complex\obj\Debug\complex.pdb
+C:\Users\acer\Desktop\lab pp2\Lab 2\complex\complex\complex\bin\Debug\complex.exe.config
+C:\Users\acer\Desktop\lab pp2\Lab 2\complex\complex\complex\bin\Debug\complex.exe
+C:\Users\acer\Desktop\lab pp2\Lab 2\complex\complex\complex\bin\Debug\complex.pdb
+C:\Users\acer\Desktop\lab pp2\Lab 2\complex\complex\complex\obj\Debug\complex.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\lab pp2\Lab 2\complex\complex\complex\obj\Debug\complex.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\lab pp2\Lab 2\complex\complex\complex\obj\Debug\complex.exe
+C:\Users\acer\Desktop\lab pp2\Lab 2\complex\complex\complex\obj\Debug\complex.pdb
