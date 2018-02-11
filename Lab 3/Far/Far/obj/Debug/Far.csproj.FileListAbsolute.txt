@@ -1,0 +1,14 @@
+C:\Users\acer\AppData\Local\Temporary Projects\Far\bin\Debug\Far.exe.config
+C:\Users\acer\AppData\Local\Temporary Projects\Far\bin\Debug\Far.exe
+C:\Users\acer\AppData\Local\Temporary Projects\Far\bin\Debug\Far.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\Far\obj\Debug\Far.csprojResolveAssemblyReference.cache
+C:\Users\acer\AppData\Local\Temporary Projects\Far\obj\Debug\Far.csproj.CoreCompileInputs.cache
+C:\Users\acer\AppData\Local\Temporary Projects\Far\obj\Debug\Far.exe
+C:\Users\acer\AppData\Local\Temporary Projects\Far\obj\Debug\Far.pdb
+C:\Users\acer\Desktop\lab pp2\Lab 3\Far\Far\bin\Debug\Far.exe.config
+C:\Users\acer\Desktop\lab pp2\Lab 3\Far\Far\bin\Debug\Far.exe
+C:\Users\acer\Desktop\lab pp2\Lab 3\Far\Far\bin\Debug\Far.pdb
+C:\Users\acer\Desktop\lab pp2\Lab 3\Far\Far\obj\Debug\Far.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\lab pp2\Lab 3\Far\Far\obj\Debug\Far.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\lab pp2\Lab 3\Far\Far\obj\Debug\Far.exe
+C:\Users\acer\Desktop\lab pp2\Lab 3\Far\Far\obj\Debug\Far.pdb
