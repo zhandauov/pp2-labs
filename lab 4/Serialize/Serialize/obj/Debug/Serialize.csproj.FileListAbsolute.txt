@@ -1,0 +1,14 @@
+C:\Users\acer\AppData\Local\Temporary Projects\Serialize\bin\Debug\Serialize.exe.config
+C:\Users\acer\AppData\Local\Temporary Projects\Serialize\bin\Debug\Serialize.exe
+C:\Users\acer\AppData\Local\Temporary Projects\Serialize\bin\Debug\Serialize.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\Serialize\obj\Debug\Serialize.csprojResolveAssemblyReference.cache
+C:\Users\acer\AppData\Local\Temporary Projects\Serialize\obj\Debug\Serialize.csproj.CoreCompileInputs.cache
+C:\Users\acer\AppData\Local\Temporary Projects\Serialize\obj\Debug\Serialize.exe
+C:\Users\acer\AppData\Local\Temporary Projects\Serialize\obj\Debug\Serialize.pdb
+C:\Users\acer\Desktop\lab pp2\lab 4\Serialize\Serialize\bin\Debug\Serialize.exe.config
+C:\Users\acer\Desktop\lab pp2\lab 4\Serialize\Serialize\bin\Debug\Serialize.exe
+C:\Users\acer\Desktop\lab pp2\lab 4\Serialize\Serialize\bin\Debug\Serialize.pdb
+C:\Users\acer\Desktop\lab pp2\lab 4\Serialize\Serialize\obj\Debug\Serialize.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\lab pp2\lab 4\Serialize\Serialize\obj\Debug\Serialize.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\lab pp2\lab 4\Serialize\Serialize\obj\Debug\Serialize.exe
+C:\Users\acer\Desktop\lab pp2\lab 4\Serialize\Serialize\obj\Debug\Serialize.pdb

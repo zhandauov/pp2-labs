@@ -1,0 +1,14 @@
+C:\Users\acer\AppData\Local\Temporary Projects\snakegame\obj\Debug\snakegame.csprojResolveAssemblyReference.cache
+C:\Users\acer\AppData\Local\Temporary Projects\snakegame\obj\Debug\snakegame.csproj.CoreCompileInputs.cache
+C:\Users\acer\AppData\Local\Temporary Projects\snakegame\bin\Debug\snakegame.exe.config
+C:\Users\acer\AppData\Local\Temporary Projects\snakegame\bin\Debug\snakegame.exe
+C:\Users\acer\AppData\Local\Temporary Projects\snakegame\bin\Debug\snakegame.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\snakegame\obj\Debug\snakegame.exe
+C:\Users\acer\AppData\Local\Temporary Projects\snakegame\obj\Debug\snakegame.pdb
+C:\Users\acer\Desktop\lab pp2\snake\snakegame\snakegame\bin\Debug\snakegame.exe.config
+C:\Users\acer\Desktop\lab pp2\snake\snakegame\snakegame\bin\Debug\snakegame.exe
+C:\Users\acer\Desktop\lab pp2\snake\snakegame\snakegame\bin\Debug\snakegame.pdb
+C:\Users\acer\Desktop\lab pp2\snake\snakegame\snakegame\obj\Debug\snakegame.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\lab pp2\snake\snakegame\snakegame\obj\Debug\snakegame.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\lab pp2\snake\snakegame\snakegame\obj\Debug\snakegame.exe
+C:\Users\acer\Desktop\lab pp2\snake\snakegame\snakegame\obj\Debug\snakegame.pdb
