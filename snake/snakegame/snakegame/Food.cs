@@ -21,10 +21,16 @@ namespace SnakeExample
 
         public void SetRandomPosition()
         {
-            int x = new Random().Next(0, 70);
-            int y = new Random().Next(0, 30);
-
-            // TODO: check for collision with wall and snake           
+            int x = new Random().Next(2, 68);
+            int y = new Random().Next(2, 28);
+            for (int i = 0; i < Game.snake.body.Count; i++)
+            {
+                if (x == Game.snake.body[i].x && y == Game.snake.body[i].y && (x == 22 && y >= 6 && y <= 25) && (x == 47 && y >= 6 && y <= 25))
+                {
+                    x = new Random().Next(2, 68);
+                    y = new Random().Next(2, 28);                  
+                }
+            }        
             location = new Point(x, y);
         }
 

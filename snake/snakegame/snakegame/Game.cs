@@ -19,7 +19,7 @@ namespace SnakeExample
         public static void Init()
         {
             Console.CursorVisible = false;
-            Console.SetWindowSize(70, 31);
+            Console.SetWindowSize(90, 40);
             GameOver = false;
             direction = 1;
             speed = 100;
@@ -28,24 +28,30 @@ namespace SnakeExample
             food = new Food();
             wall = new Wall();
         }
-        public static void Suicide()
-        {
-            for (int i = 1; i < snake.body.Count; i++)
-            {
-                if (snake.body[0].x == snake.body[i].x && snake.body[0].y == snake.body[i].y)
-                    GameOver = true;
-            }
-            GameOver = false;
-        }
         public static void Draw()
-        {
-            //Console.Clear();
+        {            
             snake.Draw();
             food.Draw();
-            wall.Draw();
+            Console.SetCursorPosition(0, 31);
+            Console.WriteLine("score: " + score);
         }
 
-        // serialize objects (Save function)
-        // desiralize objects (Resume function)
+        public static void Draw1()
+        {           
+            wall.Draw1();
+            snake.Draw();
+            food.Draw();
+            Console.SetCursorPosition(0, 31);
+            Console.WriteLine("score: " + score);
+        }
+
+        public static void Draw2()
+        {
+            wall.Draw2();
+            snake.Draw();
+            food.Draw();
+            Console.SetCursorPosition(0, 31);
+            Console.WriteLine("score: " + score);
+        }
     }
 }

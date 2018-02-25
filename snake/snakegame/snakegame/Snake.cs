@@ -38,18 +38,86 @@ namespace SnakeExample
 
             body[0].x = body[0].x + dx;
             body[0].y = body[0].y + dy;
-
+            Suicide();
             CollisionWithWall();
             if (Eat())
             {
-                if (body.Count % 4 == 0 && Game.speed >= 30)
+                if (Game.speed >= 30)
                 {
-                    Game.speed -= 5;
+                    Game.speed -= 2;
                     Game.score += 10;
                 }
                 Game.food.SetRandomPosition();
             }
+        }
 
+        public void Move2(int dx, int dy)
+        {
+            Point lastPoint = body[body.Count - 1];
+            Console.SetCursorPosition(lastPoint.x, lastPoint.y);
+            Console.Write(' ');
+
+
+            for (int i = body.Count - 1; i > 0; i--)
+            {
+                body[i].x = body[i - 1].x;
+                body[i].y = body[i - 1].y;
+            }
+
+            body[0].x = body[0].x + dx;
+            body[0].y = body[0].y + dy;
+            Suicide();
+            CollisionWithWall2();
+            if (Eat())
+            {
+                if (Game.speed >= 30)
+                {
+                    Game.speed -= 2;
+                    Game.score += 10;
+                }
+                Game.food.SetRandomPosition();
+            }
+        }
+
+        public void Move3(int dx, int dy)
+        {
+            Point lastPoint = body[body.Count - 1];
+            Console.SetCursorPosition(lastPoint.x, lastPoint.y);
+            Console.Write(' ');
+
+
+            for (int i = body.Count - 1; i > 0; i--)
+            {
+                body[i].x = body[i - 1].x;
+                body[i].y = body[i - 1].y;
+            }
+
+            body[0].x = body[0].x + dx;
+            body[0].y = body[0].y + dy;
+            Suicide();
+            CollisionWithWall3();
+            if (Eat())
+            {
+                if (Game.speed >= 30)
+                {
+                    Game.speed -= 2;
+                    Game.score += 10;
+                }
+                Game.food.SetRandomPosition();
+            }
+        }
+
+        public void Suicide()
+        {
+            for (int i = 1; i < body.Count; i++)
+            {
+                if (body[0].x == body[i].x && body[0].y == body[i].y)
+                {
+                    Game.GameOver = true;
+                    break;
+                }
+                    
+            }            
         }
 
         public void CollisionWithWall()
@@ -62,6 +130,34 @@ namespace SnakeExample
                 body[0].y = 0;
             if (body[0].y < 0)
                 body[0].y = 29;
+        }
+
+        public void CollisionWithWall2()
+        {
+            if (body[0].x == 69)
+                Game.GameOver = true;
+            if (body[0].x == 0)
+                Game.GameOver = true;
+            if (body[0].y == 29)
+                Game.GameOver = true;
+            if (body[0].y == 0)
+                Game.GameOver = true;
+        }
+
+        public void CollisionWithWall3()
+        {
+            if (body[0].x == 69)
+                Game.GameOver = true;
+            if (body[0].x == 0)
+                Game.GameOver = true;
+            if (body[0].y == 29)
+                Game.GameOver = true;
+            if (body[0].y == 0)
+                Game.GameOver = true;
+            if (body[0].x == 22 && body[0].y >= 6 && body[0].y <= 25)
+                Game.GameOver = true;
+            if (body[0].x == 47 && body[0].y >= 6 && body[0].y <= 25)
+                Game.GameOver = true;
         }
 
         public bool Eat()

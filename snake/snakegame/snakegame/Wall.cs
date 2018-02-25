@@ -21,7 +21,7 @@ namespace SnakeExample
            // LoadLevel(1);
         }
 
-       /* public void LoadLevel(int level)
+        public void LoadLevel(int level)
         {
 
             body.Clear();
@@ -35,22 +35,90 @@ namespace SnakeExample
             while (row < 20)
             {
                 line = sr.ReadLine();
-                for (int col = 0; col < line.Length; col++)
+                for (int i = 0; i < line.Length; i++)
                 {
-                    if (line[col] == '#')
-                        body.Add(new Point(col, row));
+                    if (line[i] == '#')
+                        body.Add(new Point(i, row));
                 }
                 row++;
             }
-        }*/
+        }
 
-        public void Draw()
+        public void Draw1()
         {
             Console.ForegroundColor = color;
-            foreach (Point p in body)
+            for (int i = 0; i<70; i++)
             {
-                Console.SetCursorPosition(p.x, p.y);
-                Console.Write(sign);
+                for (int j = 0; j < 31; j++)
+                {
+                    if (i == 0)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+
+                    if (j == 0)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+
+                    if (i == 69)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+                    
+                    if (j == 30)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+                }
+            }
+        }
+
+        public void Draw2()
+        {
+            Console.ForegroundColor = color;
+            for (int i = 0; i < 70; i++)
+            {
+                for (int j = 0; j < 31; j++)
+                {
+                    if (i == 22 && j >= 6 && j <= 25)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+                    if (i == 47 && j >= 6 && j <= 25)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+                    if (i == 0)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+
+                    if (j == 0)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+
+                    if (i == 69)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+
+                    if (j == 30)
+                    {
+                        Console.SetCursorPosition(i, j);
+                        Console.Write(sign);
+                    }
+                }
             }
         }
     }
