@@ -1,0 +1,7 @@
+C:\Users\acer\AppData\Local\Temporary Projects\product\obj\Debug\product.csprojResolveAssemblyReference.cache
+C:\Users\acer\AppData\Local\Temporary Projects\product\obj\Debug\product.csproj.CoreCompileInputs.cache
+C:\Users\acer\AppData\Local\Temporary Projects\product\bin\Debug\product.exe.config
+C:\Users\acer\AppData\Local\Temporary Projects\product\bin\Debug\product.exe
+C:\Users\acer\AppData\Local\Temporary Projects\product\bin\Debug\product.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\product\obj\Debug\product.exe
+C:\Users\acer\AppData\Local\Temporary Projects\product\obj\Debug\product.pdb
