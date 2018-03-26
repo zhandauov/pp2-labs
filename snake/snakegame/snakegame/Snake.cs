@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SnakeExample
 {
+    [Serializable]
      class Snake
     {
         public List<Point> body;
@@ -160,17 +163,27 @@ namespace SnakeExample
                 Game.GameOver = true;
         }
 
+
         public bool Eat()
         {
-            if (body[0].x == Game.food.location.x
-                && body[0].y == Game.food.location.y)
-            {
-                body.Add(new Point(body[body.Count - 1].x, body[body.Count - 1].y));
+            if (Game.snake.body[0].x == Game.food.location.x && Game.snake.body[0].y == Game.food.location.y)
+            {                
+                Game.food.SetRandomPosition();
+                Game.score += 10;
+                Game.speed -= 5;
                 return true;
             }
             return false;
         }
 
+
+        public void Serialization()
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream fs = new FileStream(@"C:\Users\acer\Desktop\lab pp2\snake\snakegame\savesnake.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            bf.Serialize(fs, Game.snake);
+            fs.Close();
+        }
 
         public void Draw()
         {

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,6 +19,14 @@ namespace SnakeExample
             color = ConsoleColor.Green;
             sign = '@';
             location = new Point(20, 10);
+        }
+
+        public void Serialization()
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream fs = new FileStream(@"C:\Users\acer\Desktop\lab pp2\snake\snakegame\savefood.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            bf.Serialize(fs, Game.food);
+            fs.Close();
         }
 
         public void SetRandomPosition()

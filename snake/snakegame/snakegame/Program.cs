@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace SnakeExample
 {
+    [Serializable]
     class Program
     {
         static void MoveSnake()
@@ -81,7 +84,23 @@ namespace SnakeExample
             }
         }
 
-
+        static void SaveGame()
+        {
+            FileStream fs = new FileStream(@"dataGame.ser", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            BinaryFormatter bf = new BinaryFormatter();
+            /*try
+            {
+                bf.Serialize(fs, x);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                fs.Close();
+            }*/
+        }
 
         public static void Main(string[] args)
       {

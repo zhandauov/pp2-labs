@@ -9,11 +9,11 @@ namespace lpm
 {
     class Program
     {
-        public static bool Prime(int a)
+        public bool Prime(int a)
         {
             if (a == 1)
                 return false;
-            for (int i = 2; i * i <= a; i++)
+            for (int i = 2; i < Math.Sqrt(a); i++)
             {
                 if (a % i == 0)
                     return false;

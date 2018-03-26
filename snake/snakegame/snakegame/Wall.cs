@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -42,6 +43,14 @@ namespace SnakeExample
                 }
                 row++;
             }
+        }
+
+        public void Serialization()
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream fs = new FileStream(@"C:\Users\acer\Desktop\lab pp2\snake\snakegame\savewall.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            bf.Serialize(fs, Game.wall);
+            fs.Close();
         }
 
         public void Draw1()

@@ -14,17 +14,17 @@ namespace FarManagerExample
             FileSystemInfo[] data = cur.GetFileSystemInfos();
             for (int i = 0; i < data.Length; i++)
             {
-                if (i == pos)
-                    Console.BackgroundColor = ConsoleColor.Black;
-                else
-                    Console.BackgroundColor = ConsoleColor.DarkBlue;
-
-                if (data[i].GetType() == typeof(DirectoryInfo))
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                else
+                if (pos == i)
+                {
                     Console.ForegroundColor = ConsoleColor.Red;
-
-                Console.WriteLine(data[i].Name);
+                    
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    
+                }
+                Console.WriteLine(data[i]);
             }
 
         }
