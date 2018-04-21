@@ -1,0 +1,20 @@
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\bin\Debug\paint2.exe.config
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\bin\Debug\paint2.exe
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\bin\Debug\paint2.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\obj\Debug\paint2.csprojResolveAssemblyReference.cache
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\obj\Debug\paint2.Form1.resources
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\obj\Debug\paint2.Properties.Resources.resources
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\obj\Debug\paint2.csproj.GenerateResource.Cache
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\obj\Debug\paint2.csproj.CoreCompileInputs.cache
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\obj\Debug\paint2.exe
+C:\Users\acer\AppData\Local\Temporary Projects\paint2\obj\Debug\paint2.pdb
+C:\Users\acer\Desktop\paint2\paint2\bin\Debug\paint2.exe.config
+C:\Users\acer\Desktop\paint2\paint2\bin\Debug\paint2.exe
+C:\Users\acer\Desktop\paint2\paint2\bin\Debug\paint2.pdb
+C:\Users\acer\Desktop\paint2\paint2\obj\Debug\paint2.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\paint2\paint2\obj\Debug\paint2.Form1.resources
+C:\Users\acer\Desktop\paint2\paint2\obj\Debug\paint2.Properties.Resources.resources
+C:\Users\acer\Desktop\paint2\paint2\obj\Debug\paint2.csproj.GenerateResource.Cache
+C:\Users\acer\Desktop\paint2\paint2\obj\Debug\paint2.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\paint2\paint2\obj\Debug\paint2.exe
+C:\Users\acer\Desktop\paint2\paint2\obj\Debug\paint2.pdb

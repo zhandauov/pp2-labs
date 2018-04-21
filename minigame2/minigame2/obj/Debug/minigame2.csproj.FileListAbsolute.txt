@@ -1,0 +1,10 @@
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\bin\Debug\minigame2.exe.config
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\bin\Debug\minigame2.exe
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\bin\Debug\minigame2.pdb
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\obj\Debug\minigame2.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\obj\Debug\minigame2.Form1.resources
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\obj\Debug\minigame2.Properties.Resources.resources
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\obj\Debug\minigame2.csproj.GenerateResource.Cache
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\obj\Debug\minigame2.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\obj\Debug\minigame2.exe
+C:\Users\acer\Desktop\lab pp2\minigame2\minigame2\obj\Debug\minigame2.pdb

@@ -1,4 +1,5 @@
-﻿namespace calculator
+﻿using System.IO;
+namespace calculator
 {
     partial class Form1
     {
@@ -24,6 +25,10 @@
 
         private void InitializeComponent()
         {
+            FileStream fs = new FileStream(@"C:\Users\acer\Desktop\lab pp2\calculator\calculator\bin\Debug\input.txt", FileMode.Open, FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
+            string a = sr.ReadToEnd();
+            
             this.display = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -72,6 +77,7 @@
             this.display.ReadOnly = true;
             this.display.Size = new System.Drawing.Size(315, 34);
             this.display.TabIndex = 0;
+            this.display.Text = "0";
             this.display.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button1
@@ -239,7 +245,7 @@
             this.button14.TabIndex = 14;
             this.button14.Text = "0";
             this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.numbers_Click);
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button16
             // 
@@ -393,6 +399,7 @@
             this.button31.TabIndex = 31;
             this.button31.Text = "x!";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.one_operation_Click);
             // 
             // button32
             // 
@@ -402,7 +409,7 @@
             this.button32.TabIndex = 32;
             this.button32.Text = "MS";
             this.button32.UseVisualStyleBackColor = true;
-            this.button32.Click += new System.EventHandler(this.button32_Click);
+            this.button32.Click += new System.EventHandler(this.memory_Click);
             // 
             // button33
             // 
@@ -412,7 +419,7 @@
             this.button33.TabIndex = 33;
             this.button33.Text = "MC";
             this.button33.UseVisualStyleBackColor = true;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
+            this.button33.Click += new System.EventHandler(this.memory_Click);
             // 
             // button34
             // 
@@ -422,7 +429,7 @@
             this.button34.TabIndex = 34;
             this.button34.Text = "MR";
             this.button34.UseVisualStyleBackColor = true;
-            this.button34.Click += new System.EventHandler(this.button34_Click);
+            this.button34.Click += new System.EventHandler(this.memory_Click);
             // 
             // button35
             // 
@@ -432,7 +439,7 @@
             this.button35.TabIndex = 35;
             this.button35.Text = "M+";
             this.button35.UseVisualStyleBackColor = true;
-            this.button35.Click += new System.EventHandler(this.button35_Click);
+            this.button35.Click += new System.EventHandler(this.memory_Click);
             // 
             // button36
             // 
@@ -442,7 +449,7 @@
             this.button36.TabIndex = 36;
             this.button36.Text = "M-";
             this.button36.UseVisualStyleBackColor = true;
-            this.button36.Click += new System.EventHandler(this.button36_Click);
+            this.button36.Click += new System.EventHandler(this.memory_Click);
             // 
             // button37
             // 
