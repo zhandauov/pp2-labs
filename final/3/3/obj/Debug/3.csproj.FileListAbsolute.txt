@@ -1,0 +1,20 @@
+C:\Users\acer\AppData\Local\Temporary Projects\3\bin\Debug\3.exe.config
+C:\Users\acer\AppData\Local\Temporary Projects\3\bin\Debug\3.exe
+C:\Users\acer\AppData\Local\Temporary Projects\3\bin\Debug\3.pdb
+C:\Users\acer\AppData\Local\Temporary Projects\3\obj\Debug\3.csprojResolveAssemblyReference.cache
+C:\Users\acer\AppData\Local\Temporary Projects\3\obj\Debug\_3.Form1.resources
+C:\Users\acer\AppData\Local\Temporary Projects\3\obj\Debug\_3.Properties.Resources.resources
+C:\Users\acer\AppData\Local\Temporary Projects\3\obj\Debug\3.csproj.GenerateResource.Cache
+C:\Users\acer\AppData\Local\Temporary Projects\3\obj\Debug\3.csproj.CoreCompileInputs.cache
+C:\Users\acer\AppData\Local\Temporary Projects\3\obj\Debug\3.exe
+C:\Users\acer\AppData\Local\Temporary Projects\3\obj\Debug\3.pdb
+C:\Users\acer\Desktop\final\3\3\bin\Debug\3.exe.config
+C:\Users\acer\Desktop\final\3\3\bin\Debug\3.exe
+C:\Users\acer\Desktop\final\3\3\bin\Debug\3.pdb
+C:\Users\acer\Desktop\final\3\3\obj\Debug\3.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\final\3\3\obj\Debug\_3.Form1.resources
+C:\Users\acer\Desktop\final\3\3\obj\Debug\_3.Properties.Resources.resources
+C:\Users\acer\Desktop\final\3\3\obj\Debug\3.csproj.GenerateResource.Cache
+C:\Users\acer\Desktop\final\3\3\obj\Debug\3.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\final\3\3\obj\Debug\3.exe
+C:\Users\acer\Desktop\final\3\3\obj\Debug\3.pdb

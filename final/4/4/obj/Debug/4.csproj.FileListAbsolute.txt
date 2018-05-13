@@ -1,0 +1,10 @@
+C:\Users\acer\Desktop\final\4\4\bin\Debug\4.exe.config
+C:\Users\acer\Desktop\final\4\4\bin\Debug\4.exe
+C:\Users\acer\Desktop\final\4\4\bin\Debug\4.pdb
+C:\Users\acer\Desktop\final\4\4\obj\Debug\_4.Form1.resources
+C:\Users\acer\Desktop\final\4\4\obj\Debug\_4.Properties.Resources.resources
+C:\Users\acer\Desktop\final\4\4\obj\Debug\4.csproj.GenerateResource.Cache
+C:\Users\acer\Desktop\final\4\4\obj\Debug\4.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\final\4\4\obj\Debug\4.exe
+C:\Users\acer\Desktop\final\4\4\obj\Debug\4.pdb
+C:\Users\acer\Desktop\final\4\4\obj\Debug\4.csprojResolveAssemblyReference.cache
